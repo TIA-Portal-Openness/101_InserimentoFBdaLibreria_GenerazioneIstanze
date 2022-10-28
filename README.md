@@ -1,10 +1,11 @@
-# Creazione-di-un-oggetto-tecnologico-nel-PLC-e-assegnazione-al-drive
+# Inserimento di un FB da libreria del progetto e generazione di N Db di istanza
 Semplice esempio TIA Portal Openness che esegue le seguenti operazioni:
 
+### OBIETTIVO
 - Aggancio all'istanza TIA Portal e al progetto attualmente aperto
-- Inserimento di una CPU S7-1513
-- Assegnazione dell'indirizzo IP 192.168.0.10 al PLC
-- Inserimento di un drive G120 integrato
+- Inserimento dell'FB 'Motore' presente nella libreria di progetto, nella cartella Blocchi del PLC
+- Richiesta tramite Console del numero di istanze da creare
+- Realizzazione delle N DB di istanza con numero progressivo
 - Assegnazione dell'indirizzo IP 192.168.0.11 al drive
 - Creazione di una rete ethernet nel progetto
 - Collegamento dei due dispositivi alla rete appena creata
@@ -14,8 +15,11 @@ Semplice esempio TIA Portal Openness che esegue le seguenti operazioni:
 - Rilevamento dell'indirizzo di IO del telegramma del drive
 - Assegnazione dell'oggetto tecnologico al drive
 
-RISULTATO
+### PREREQUISITI
+- Apri il progetto TIA Portal scaricabile in questa Repository
+- Lancia l'applicazione Windows Console .NET Framework con all'interno il file .cs scaricato da questa Repository
 
-![Es1](https://user-images.githubusercontent.com/108678849/196918886-2292bf13-eb7b-4864-9eb9-5f72c310fa07.png)
+### RISULTATO
+![Es5](https://user-images.githubusercontent.com/108678849/198558372-a51b6ab3-3dce-401e-ab27-d1c5dae3f5fb.png)
 
-![Es1_Ter](https://user-images.githubusercontent.com/108678849/196918835-f219a078-20a8-4861-aa03-d4de6df5248a.png)
+
