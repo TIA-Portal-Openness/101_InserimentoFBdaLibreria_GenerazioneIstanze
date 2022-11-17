@@ -6,14 +6,6 @@ Semplice esempio TIA Portal Openness che esegue le seguenti operazioni:
 - Inserimento dell'FB 'Motore' presente nella libreria di progetto, nella cartella Blocchi del PLC
 - Richiesta tramite Console del numero di istanze da creare
 - Realizzazione delle N DB di istanza con numero progressivo
-- Assegnazione dell'indirizzo IP 192.168.0.11 al drive
-- Creazione di una rete ethernet nel progetto
-- Collegamento dei due dispositivi alla rete appena creata
-- Creazione di una sottorete PROFINET assegnata al PLC S7-1513
-- Assegnazione del drive alla sottorete appena creata e quindi al PLC
-- Creazione di un oggetto tecnologico SpeedAxis
-- Rilevamento dell'indirizzo di IO del telegramma del drive
-- Assegnazione dell'oggetto tecnologico al drive
 
 ### PREREQUISITI
 - Apri il progetto TIA Portal scaricabile in questa Repository
